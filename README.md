@@ -1,4 +1,10 @@
-# Home Assistant Add-ons: The official repository
+# Home Assistant Add-ons: Definitely **NOT** the official repository
+
+I forked this repo so I could keep my anonymous Mosquitto setup.  
+Anton Starikov already had a [repo](https://github.com/antst/hass_addons), but I wanted to be able
+to pull from upstream HA, so I stuck his code into this fork.
+
+[![Open your Home Assistant instance and show the add add-on repository dialog with a specific repository URL pre-filled.](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Frandalln%2Fha_addons)
 
 Add-ons for Home Assistant allow you to extend the functionality
 around your Home Assistant setup. These add-ons can consist of an application

@@ -19,6 +19,9 @@ persistence_location /data/
 # is busy and cannot read messages fast enough
 max_queued_messages 8192
 
+# Anonymous authentication
+allow_anonymous  {{ .anonymous }}
+
 # Authentication plugin
 auth_plugin /usr/share/mosquitto/go-auth.so
 auth_opt_backends files,http
